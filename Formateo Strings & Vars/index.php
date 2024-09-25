@@ -23,9 +23,9 @@
     // Cerrar variables en {}
 
     $numero = 10;
-    $manzanas = "Tengo {$numero} manzanas para comer";
-    $naranjas = "Tengo ${numero} naranjas para comer";
-    $dinero = "Tengo $${numero} en el banco";
+    $manzanas = "Tengo {$numero} manzanas para comer"; // => Tengo 10 manzanas para comer
+    $naranjas = "Tengo ${numero} naranjas para comer"; // => Tengo 10 naranjas para comer
+    $dinero = "Tengo $${numero} en el banco"; // => Tengo $10 en el banco
 
     
   ?>
