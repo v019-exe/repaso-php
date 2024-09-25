@@ -23,6 +23,14 @@
     assert($a > $c); // Verifica que $a es mayor que $c (esto debería fallar si la primera afirmación es verdadera)
     assert($a <= $b); // Verifica que $a es menor o igual que $b
     assert($a >= $d); // Verifica que $a es mayor o igual que $d
+
+    // Lo siguiente solo será verdadero si los valores coinciden y son del mismo tipo
+
+    assert($c === $d);
+    assert($a !== $d);
+    assert(1 === '1');
+    assert(1 !== '1');
+
   ?>
 </body>
 </html>
