@@ -24,7 +24,7 @@
 
     $numero = 10;
     $manzanas = "Tengo {$numero} manzanas para comer";
-    $naranjas = "Tengo ${number} naranjas para comer";
+    $naranjas = "Tengo ${numbero} naranjas para comer";
     $dinero = "Tengo $${numero} en el banco";
 
     
