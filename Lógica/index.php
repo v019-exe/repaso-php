@@ -31,6 +31,46 @@
     assert(1 === '1');
     assert(1 !== '1');
 
+    $a = 100;  // Asigna 100 a $a
+    $b = 1000; // Asigna 1000 a $b
+
+    // Compara $a con $a, devuelve 0 porque son iguales
+    echo $a <=> $a; // Salida: 0
+
+    // Compara $a con $b, devuelve -1 porque $a es menor que $b
+    echo $a <=> $b; // Salida: -1
+
+    // Compara $b con $a, devuelve 1 porque $b es mayor que $a
+    echo $b <=> $a; // Salida: 1
+
+
+    // Las variables se pueden convertir entre tipos, dependiendo de su uso.
+    $int = 1;
+    echo $int + $int; // => 2
+
+    $int = '1';
+    echo $int + $int; // => 2
+
+    $string = 'uno';
+    echo $string + $string; // => 0
+
+    // devuelve 0 por qué el operador + no puede convertir el string 'uno' a número
+
+    // La conversión de tipos se puede utilizar para tratar una variable como otro tipo
+
+    // 1 es true y 0 es false
+    $booleano = (boolean) 1; // => true
+
+    $cero = 0;
+    $booleano = (boolean) $cero; // => false
+
+    // También hay funciones dedicadas para convertir la mayoría de los tipos
+
+    $int = 5;
+    $string = strval($int); // convierte 5 a string
+
+    $variable = null; // Null
+
   ?>
 </body>
 </html>
