@@ -9,7 +9,7 @@
     <h1>Primer ejemplo de variables</h1>
     <p>
         <?php
-            $nombre = "José Daniel";
+            $nombre = "v019.exe";
 
             echo "Hola $name, larga vida y prosperidad";
         ?>

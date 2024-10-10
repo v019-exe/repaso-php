@@ -73,6 +73,21 @@
             echo "<br>";
         }
         
+        echo "<hr>";
+        echo "<br>";
+        echo "<h1> Ordenación por valor de Arrays </h1>";
+        $array5 = array(9, 2, 5, 1, 4, 3, 6, 7, 8, 0);
+        $array6 = array(1, 3, 2, 4);
+        arsort($array5);
+        arsort($array6);
+        var_dump($array5);
+        var_dump($array6);
+        foreach ($array5 as $key => $value) {
+            echo $value . "<br>";
+            echo "<br>";
+        }
+
+         
     ?>
 </body>
 </html>
