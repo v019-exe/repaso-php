@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        $nombre = "José Daniel";
+        $nombre = "v019.exe";
 
         echo "Hola $nombre, encantado de conocerte<br/>\n";
         echo "Gracias por venir\n";
